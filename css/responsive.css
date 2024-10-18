@@ -1,8 +1,89 @@
+/* HORIZONTAL */
+
+@media all and (orientation: landscape)
+{
+	/* GENERAL */
+
+    /* 8K */
+    @media only screen and (min-width: 7680px)
+    {
+    }
+
+    /* UHD */
+    @media only screen and (min-width: 3840px) and (max-width: 7679)
+    {
+    }
+
+    /* QHD */
+    @media only screen and (min-width: 2560px) and (max-width: 3839)
+    {
+    }
+
+    /* FHD */
+    @media only screen and (min-width: 1920px) and (max-width: 2559)
+    {
+    }
+
+    /* HD */
+    @media only screen and (min-width: 1280px) and (max-width: 1919)
+    {
+    }
+
+    /* OTRA */
+    @media only screen and (max-width: 1279)
+    {
+    }
+}
+
+
+
+
+
+/* VERTICAL */
+
+@media all and (orientation: portrait)
+{
+	/* GENERAL */
+
+    /* 8K */
+    @media only screen and (min-width: 4320px)
+    {
+    }
+
+    /* UHD */
+    @media only screen and (min-width: 2160px) and (max-width: 4319)
+    {
+    }
+
+    /* QHD */
+    @media only screen and (min-width: 1440px) and (max-width: 2159)
+    {
+    }
+
+    /* FHD */
+    @media only screen and (min-width: 1080px) and (max-width: 1439)
+    {
+    }
+
+    /* HD */
+    @media only screen and (min-width: 720px) and (max-width: 1079)
+    {
+    }
+
+    /* OTRA */
+    @media only screen and (max-width: 719px)
+    {
+    }
+}
+
+
+
+
+
 /******************************************
     Version: 1.0
 /****************************************** */
 
-@media only screen and (min-width: 992px) and (max-width: 1199px) {}
 @media (min-width: 768px) and (max-width: 991px) {
 	#mainNav {
 		background-color: #333333;
